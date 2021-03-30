@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="173.91304347826087" y="167.41071428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Scroll View Controller-->
         <scene sceneID="2SD-rM-Qf5">
             <objects>
-                <viewController id="dcT-Fr-zV3" sceneMemberID="viewController">
+                <viewController id="dcT-Fr-zV3" customClass="ScrollViewController" customModule="RxSwiftPattern" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xtb-SQ-Df5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

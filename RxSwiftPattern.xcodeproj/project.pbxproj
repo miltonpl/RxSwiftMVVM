@@ -12,6 +12,7 @@
 		520E7AAA2613A635003A3547 /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520E7AA92613A635003A3547 /* Auth.storyboard */; };
 		520E7AB02613CB3A003A3547 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E7AAF2613CB3A003A3547 /* RegisterViewController.swift */; };
 		520E7AB52613CDB6003A3547 /* StoryboradNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E7AB42613CDB6003A3547 /* StoryboradNames.swift */; };
+		520E7ABC2613EDCE003A3547 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E7ABB2613EDCE003A3547 /* ScrollViewController.swift */; };
 		52DA570526121BC400EACCAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DA570426121BC400EACCAE /* AppDelegate.swift */; };
 		52DA570726121BC400EACCAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DA570626121BC400EACCAE /* SceneDelegate.swift */; };
 		52DA570C26121BC400EACCAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DA570A26121BC400EACCAE /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 		520E7AA92613A635003A3547 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
 		520E7AAF2613CB3A003A3547 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		520E7AB42613CDB6003A3547 /* StoryboradNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboradNames.swift; sourceTree = "<group>"; };
+		520E7ABB2613EDCE003A3547 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		52DA570126121BC400EACCAE /* RxSwiftPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52DA570426121BC400EACCAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52DA570626121BC400EACCAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		520E7AAC2613CA42003A3547 /* Register Screens */ = {
 			isa = PBXGroup;
 			children = (
+				520E7AB92613EDAF003A3547 /* Scroll */,
 				520E7AAD2613CA42003A3547 /* Register */,
 			);
 			path = "Register Screens";
@@ -120,6 +123,22 @@
 				520E7AB42613CDB6003A3547 /* StoryboradNames.swift */,
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		520E7AB92613EDAF003A3547 /* Scroll */ = {
+			isa = PBXGroup;
+			children = (
+				520E7ABA2613EDBC003A3547 /* Controller */,
+			);
+			path = Scroll;
+			sourceTree = "<group>";
+		};
+		520E7ABA2613EDBC003A3547 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				520E7ABB2613EDCE003A3547 /* ScrollViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		52DA56F826121BC400EACCAE = {
@@ -392,6 +411,7 @@
 				520E7AB02613CB3A003A3547 /* RegisterViewController.swift in Sources */,
 				520E7AA426137C81003A3547 /* LoginViewModel.swift in Sources */,
 				52DA570726121BC400EACCAE /* SceneDelegate.swift in Sources */,
+				520E7ABC2613EDCE003A3547 /* ScrollViewController.swift in Sources */,
 				52DA574B26123AF900EACCAE /* ViewModelProtocol.swift in Sources */,
 				52DA574726123AAB00EACCAE /* SpyListViewModel.swift in Sources */,
 				52DA5732261221E600EACCAE /* ReusableController.swift in Sources */,
