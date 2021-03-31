@@ -7,7 +7,15 @@
 
 import UIKit
 
+class SingTextField: UITextField {
+    
+}
+
 class ScrollViewController: UIViewController {
+    
+    @IBOutlet private var codeFiled: UITextField!
+    @IBOutlet private var itemFiled: UITextField!
+    @IBOutlet private var counterFiled: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
